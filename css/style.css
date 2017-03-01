@@ -1,0 +1,51 @@
+body {
+  background:grey ;
+  font:white;
+}
+
+h1 {
+  color:red;
+  text-align:center;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  float:left;
+}
+
+a {
+  color:red;
+  text-decoration: none;
+  padding:10px;
+  background:lightgrey;
+  display:block;
+}
+
+a:hover {
+  background:black;
+  border:2px solid red;
+}
+
+.dropdown {
+  position:relative;
+}
+
+.drop-nav {
+  position:absolute;
+  display:none;
+}
+
+.drop-nav li {
+  width:150px;
+}
+
+.dropdown:hover .drop-nav {
+  display:block;
+}
